@@ -1,0 +1,67 @@
+https://www.tutorialspoint.com/mongodb/index.htm
+
+https://cloud.mongodb.com/v2/5ebab90e333be90a8fd0155d#clusters
+13.235.69.220
+atlasAdmin - 123MANsan*
+mymongo - mymongo
+
+https://www.google.com/search?q=cloud+mongodb+com+how+to+use&rlz=1C1GCEU_enUS858US858&oq=cloud.mongodb.com+how+to+&aqs=chrome.1.69i57j33l5.17035j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_Pby6Xuj6NvTgz7sPgrKM4AI56
+
+
+
+QA:
+https://stackoverflow.com/questions/3215029/nosql-mongodb-vs-lucene-or-solr-as-your-database
+
+
+
+Local installation using ZIP file: "https://mkyong.com/mongodb/how-to-install-mongodb-on-windows/"
+	In one terminal
+	C:\PERSONAL\study\mangoDB\mongodb\bin>mongod.exe --config C:\PERSONAL\study\mangoDB\mongodb\mongo.config
+	
+	Another terminal
+	
+
+
+Introduction
+============
+Is a document(JSON content) database
+In SQL DBs -> save text content in "structured tables"
+In Mongo DB -> save text in "structured JSON"
+
+SQL DB : Server -> databases -> schema -> tables
+	SQL queries
+Mongo DB : Server -> databases -> collections -> documents
+	Javascript like queries
+	
+SQL Terms/Concepts												MongoDB Terms/Concepts
+---------------------------------------------------------------------------------------
+database														database
+
+table															collection
+
+row																document or BSON document
+
+column															field
+
+index															index
+
+table joins														$lookup, embedded documents
+
+primary key														primary key
+Specify any unique column or column combination as primary key.	In MongoDB, the primary key is automatically set to the _id field.
+
+aggregation (e.g. group by)										aggregation pipeline
+
+SELECT INTO NEW_TABLE											$out
+
+MERGE INTO TABLE												$merge
+
+transactions													transactions
+----------------------------------------------------------------------------------------
+Unique Id
+---------
+Every MongoDB document has a _id field, auto-generated unique id as a document(json) identifier
+
+
+	
+
